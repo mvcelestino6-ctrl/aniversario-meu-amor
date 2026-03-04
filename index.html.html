@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feliz Aniversário, Meu Amor</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+<style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+
+    body {
+        font-family: 'Inter', sans-serif;
+        background: linear-gradient(135deg, #fff1f5, #ffe3ec);
+        color:#3a3a3a;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        min-height:100vh;
+        padding:20px;
+    }
+
+    .container {
+        max-width:850px;
+        background:white;
+        padding:60px 45px;
+        border-radius:25px;
+        box-shadow:0 25px 60px rgba(214, 51, 108, 0.15);
+        text-align:center;
+        position:relative;
+        overflow:hidden;
+    }
+
+    h1 {
+        font-family:'Playfair Display', serif;
+        font-size:2.8rem;
+        margin-bottom:25px;
+        font-weight:700;
+        color:#d6336c;
+    }
+
+    h2 {
+        font-family:'Playfair Display', serif;
+        margin:40px 0 15px;
+        color:#c2255c;
+    }
+
+    p {
+        line-height:1.9;
+        font-size:1.05rem;
+        margin-bottom:18px;
+    }
+
+    .highlight {
+        font-weight:600;
+        color:#d6336c;
+    }
+
+    .divider {
+        width:70px;
+        height:2px;
+        background:#d6336c;
+        margin:35px auto;
+        opacity:0.4;
+    }
+
+    img {
+        width:100%;
+        border-radius:18px;
+        margin-bottom:30px;
+        box-shadow:0 15px 35px rgba(0,0,0,0.1);
+    }
+
+    .button {
+        margin-top:30px;
+        padding:14px 32px;
+        border:none;
+        background:#d6336c;
+        color:white;
+        cursor:pointer;
+        font-size:0.95rem;
+        letter-spacing:1px;
+        border-radius:50px;
+        transition:0.3s ease;
+    }
+
+    .button:hover {
+        background:#a61e4d;
+        transform:scale(1.05);
+    }
+
+    .hidden-message {
+        display:none;
+        margin-top:35px;
+        font-family:'Playfair Display', serif;
+        font-size:1.15rem;
+        animation:fadeIn 1.5s ease forwards;
+    }
+
+    @keyframes fadeIn {
+        from { opacity:0; transform:translateY(15px); }
+        to { opacity:1; transform:translateY(0); }
+    }
+
+    .footer {
+        margin-top:50px;
+        font-size:0.8rem;
+        opacity:0.6;
+    }
+
+    @media(max-width:600px){
+        .container{ padding:40px 25px; }
+        h1{ font-size:2rem; }
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <img src="eu-e-rafa.jpg" alt="Nós dois">
+
+    <h1>Feliz Aniversário, Meu Amor ❤️</h1>
+
+    <p>
+        Oi, meu amor! Esse cantinho é só uma pequena representação do quanto eu te amo 
+        e do quanto sou feliz por sua vida.
+    </p>
+
+    <div class="divider"></div>
+
+    <h2>Estamos Juntos Há</h2>
+    <p id="contador" style="font-size:1.4rem; font-weight:600; color:#d6336c;"></p>
+
+    <div class="divider"></div>
+
+    <h2>Sobre Você</h2>
+
+    <p>
+        Viver com você é viver em paz. É viver na certeza de que tenho comigo o amor da minha vida. 
+        É viver na calmaria de um amor tranquilo.
+    </p>
+
+    <p>
+        Estar com você é estar segura. É estar em casa. É ter a convicção de que vou ser vista e vou ser compreendida.
+    </p>
+
+    <p>
+        Viver com você é bom como nada antes nunca havia sido. Te amar é fácil demais, meu amor.
+    </p>
+
+    <div class="divider"></div>
+
+    <h2>Linha do Tempo do Nosso Amor</h2>
+
+    <div style="position:relative; margin:40px 0; padding-left:20px; text-align:left;">
+        <div style="position:absolute; left:10px; top:0; bottom:0; width:2px; background:#f06595; opacity:0.4;"></div>
+
+        <div style="position:relative; margin-bottom:30px; padding-left:30px;">
+            <div style="position:absolute; left:-2px; top:5px; font-size:18px;">❤️</div>
+            <p><span class="highlight">Setembro de 2016</span> — Duas criancinhas fofurinhas (12 e 13 anos) começando uma história que ainda nem sabiam o tamanho que teria.</p>
+        </div>
+
+        <div style="position:relative; margin-bottom:30px; padding-left:30px;">
+            <div style="position:absolute; left:-2px; top:5px; font-size:18px;">❤️</div>
+            <p><span class="highlight">5 meses depois</span> — eu terminei com você porque eu estava louca!</p>
+        </div>
+
+        <div style="position:relative; margin-bottom:30px; padding-left:30px;">
+            <div style="position:absolute; left:-2px; top:5px; font-size:18px;">❤️</div>
+            <p><span class="highlight">Fevereiro de 2020</span> — voltamos a estudar juntos e nos reaproximar.</p>
+        </div>
+
+        <div style="position:relative; margin-bottom:30px; padding-left:30px;">
+            <div style="position:absolute; left:-2px; top:5px; font-size:18px;">❤️</div>
+            <p><span class="highlight">Junho de 2020</span> — voltamos a namorar e começamos a escrever, definitivamente, a nossa história.</p>
+        </div>
+
+        <div style="position:relative; padding-left:30px;">
+            <div style="position:absolute; left:-2px; top:5px; font-size:18px;">❤️</div>
+            <p style="font-weight:600;">
+                Nossa história ainda tem muitos capítulos a serem escritos. Te amo pra sempre!
+            </p>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <button class="button" onclick="showMessage()">Leia meu coração 💌</button>
+
+    <div class="hidden-message" id="surprise">
+        <p>Meu amor,</p>
+
+        <p>
+        Sou tão feliz pela sua existência que nem sei explicar aqui. Poder comemorar sua vida ao seu lado é o presente mais lindo que Deus poderia me proporcionar.
+        </p>
+
+        <p>
+        Não sei se eu deixo claro o suficiente pra você, mas <strong>você é a minha pessoa nesse mundo</strong>. Tudo que acontece comigo, eu não vejo a hora de contar pra você. Cada vídeo engraçado que eu vejo, eu quero mandar pra você. Cada livro que eu leio, eu quero narrar pra você. Cada experiência que eu vivo, eu quero compartilhar com você.
+        </p>
+
+        <p>
+        Deus sabia exatamente o que estava fazendo quando nos colocou um na vida do outro. Eu sei que nós somos católicos e não devemos acreditar nisso de outras vidas (KKKKK), mas, se existe, nós somos dessa e de todas as outras.
+        </p>
+
+        <p>
+        Espero que toda sua existência seja rodeada de tudo de melhor. Espero que você realize todos os seus sonhos e que alcance todos os seus objetivos. Estarei ao seu lado para comemorar todas suas conquistas.
+        </p>
+
+        <p>
+        Saiba que <strong>você me inspira todos os dias a ser uma pessoa melhor</strong>. Obrigada por estar sempre aqui por mim, por sempre me ouvir e me entender e não me julgar. Obrigada por me priorizar sempre. Saiba que você sempre será meu número 1.
+        </p>
+
+        <p>
+        Agradeço muito a Deus por Ele ter sido tão bondoso e ter ouvido minhas orações. Você é resultado de muitas delas. <strong>Você é meu sonho!</strong>
+        </p>
+
+        <p>
+        Eu te amo hoje muito mais que ontem e muito menos que amanhã. Te escolhi há 6 anos atrás, te escolho todos os dias e te escolherei por toda a minha vida.
+        </p>
+
+        <p>
+        Feliz aniversário, meu amor! Que Nossa Senhora lhe cubra com seu manto sagrado e lhe guarde sempre no caminho de Deus.
+        </p>
+
+        <div style="width:80px;height:1px;background:#d6336c;margin:25px auto 20px auto;opacity:0.4;"></div>
+        <strong>Vou até o céu com você!</strong> ❤️
+    </div>
+
+    <div class="footer">Feito com todo o meu amor 🤍</div>
+
+</div>
+
+<script>
+    function showMessage() {
+        document.getElementById("surprise").style.display = "block";
+    }
+
+    function atualizarContador() {
+        const dataInicio = new Date("2020-06-11T00:00:00");
+        const agora = new Date();
+
+        let anos = agora.getFullYear() - dataInicio.getFullYear();
+        let meses = agora.getMonth() - dataInicio.getMonth();
+        let dias = agora.getDate() - dataInicio.getDate();
+
+        if (dias < 0) {
+            meses--;
+            const ultimoMes = new Date(agora.getFullYear(), agora.getMonth(), 0);
+            dias += ultimoMes.getDate();
+        }
+
+        if (meses < 0) {
+            anos--;
+            meses += 12;
+        }
+
+        document.getElementById("contador").innerText =
+            anos + " anos, " + meses + " meses e " + dias + " dias ❤️";
+    }
+
+    atualizarContador();
+</script>
+
+</body>
+</html>
